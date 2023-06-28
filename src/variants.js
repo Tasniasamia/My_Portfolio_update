@@ -9,11 +9,16 @@ export const fadeIn = (direction, delay) => {
       y: 0,
       x: 0,
       opacity: 1,
+      
       transition: {
         type: 'tween',
         duration: 1.2,
+        mass:0.4,
+        damping:0,
         delay: delay,
+     
         ease: [0.25, 0.25, 0.25, 0.75],
+      
       },
     },
   };

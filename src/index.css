@@ -23,7 +23,7 @@
   );
 }
 
-.gradient,
+.active2,.gradient,
 .active {
   background: linear-gradient(
     92.23deg,
@@ -33,7 +33,11 @@
     #ff56f6 117.04%
   );
 }
-
+.active2{
+  color:#fff;
+ 
+  border-radius: 100%;
+}
 .active {
   color: #fff;
   padding: 1rem;
@@ -67,5 +71,8 @@
   }
   .section {
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
+  }
+  .progress-anim{
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6]
   }
 }

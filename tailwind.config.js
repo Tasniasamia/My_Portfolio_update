@@ -5,6 +5,7 @@ module.exports = {
       primary: 'Orbitron',
       secondary: 'Rajdhani',
       tertiary: 'Aldrich',
+      ada:'Agdasima',
     },
     container: {
       padding: {
@@ -26,6 +27,8 @@ module.exports = {
         site: "url('./assets/site-bg.jpg')",
         about: "url('./assets/about.png')",
         services: "url('./assets/services.png')",
+        site2: "url('https://images.pexels.com/photos/7130488/pexels-photo-7130488.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load')",
+      about2:"url('./assets/about2.png')"
       },
     },
   },
