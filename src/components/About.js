@@ -43,7 +43,7 @@ const About = () => {
 
 <div className='  max-w-max my-8  '>
 
-  <button className='btn btn-sm me-4' >Download CV</button>
+  <button className='btn btn-sm me-4' >Download Resume</button>
   <a href="#"className='text-gradient btn-link'>MY Portfolio</a></div>
 
 </div>

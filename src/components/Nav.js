@@ -18,10 +18,11 @@ const Nav = () => {
 <Link to="service" activeClass='active'smooth={true} spy={true} className="cursor-pointer w-[60px] h-[60px] flex items-center">
 <BsClipboardData/> 
 </Link>
-<Link to="skill" activeClass='active'smooth={true} spy={true}className="cursor-pointer w-[60px] h-[60px] flex items-center">
+<Link to="skill" activeClass='active'smooth={true} spy={true} className="cursor-pointer w-[60px] h-[60px] flex items-center">
 <FaRegLightbulb/> 
 </Link>
-<Link to="work" activeClass='active'smooth={true} spy={true}  className="cursor-pointer w-[60px] h-[60px] flex items-center">
+
+<Link to="work"   activeClass='active'smooth={true} spy={true}  className="cursor-pointer w-[60px] h-[60px] flex items-center">
 <BsBriefcase/> 
 </Link>
 <Link to="contact" activeClass='active'smooth={true} spy={true}  className="cursor-pointer w-[60px] h-[60px] flex items-center">

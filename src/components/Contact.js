@@ -1,7 +1,84 @@
 import React from 'react';
-
+import { motion } from 'framer-motion';
+import { fadeIn } from '../variants';
+import {BsTelephone} from 'react-icons/bs';
+import {AiOutlineMail}from 'react-icons/ai';
+import {CiLocationOn}from 'react-icons/ci';
 const Contact = () => {
-  return <div className='section'id="contact">Contact</div>;
+  const contactobj=[
+    {
+      name:<BsTelephone/>,
+      title:"Phone",
+      des:"+8801302797367"
+    },
+    {
+      name:<AiOutlineMail/>,
+      title:"Email",
+      des:"tasniaarhamarham@gmail.com"
+    },{
+      name:<CiLocationOn/>,
+      title:"Location",
+      des:"Khulna,Bangladesh"
+    }
+  ]
+  return <div className='section'id="contact">
+
+    <div className='container mx-auto'>
+      <div className='flex lg:flex-row flex-col lg:justify-center lg:gap-x-40 items-center '>
+<motion.div variants={fadeIn('right',0.3)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.7}}>
+  <p className='text-accent font-bold'>GET IN Touch</p>
+  <h2 className='h2 tracking-[4px] mb-2 py-4 '>Contact Me</h2>
+
+  <div>
+
+
+{
+  contactobj.map(index=><div key={index.title}>
+
+    <div className='flex items-center gap-x-2'>
+      <div className='font-semibold text-xl'>
+        {index.name}
+      </div>
+      <div>
+      <h2 className='text-2xl font-bold'>{index.title}</h2>  
+      <p>{index.des}</p>
+      </div>
+    </div>
+  </div>)
+}
+
+
+
+
+  </div>
+</motion.div>
+
+<motion.div className='mt-5'variants={fadeIn('left',0.5)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.7}}>
+  <form className='flex-1 lg:w-[500px] p-10 rounded-lg'style={{border:"1px solid white"}}>
+
+<input type="text" className='placeholder:text-white border-0 border-b bg-transparent w-full lg:max-w-[1000px] boxshadow-none outline-none focus:border-accent mb-8 pb-4'placeholder='Your name'/>
+
+<input type="email" className='placeholder:text-white border-0 border-b bg-transparent w-full lg:max-w-[1000px] boxshadow-none outline-none  mb-20 focus:border-accent pb-4'placeholder='Your email'/>
+
+<textarea cols="40"rows="5"placeholder='Your message'className='placeholder:text-white border-0 border-b bg-transparent w-full lg:max-w-[1000px] boxshadow-none outline-none  mb-20 focus:border-accent resize-none'></textarea>
+
+
+<button className='btn btn-lg'>send message</button>
+  </form>
+</motion.div>
+
+
+
+
+
+   
+   
+   
+   
+   
+</div>
+    </div>
+  </div>;
 };
 
 export default Contact;
