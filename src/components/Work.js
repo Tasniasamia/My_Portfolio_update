@@ -25,26 +25,26 @@ const Work = () => {
        </div>
        
        <div className='group relative  overflow-hidden'>
-        <div className='group-hover:bg-black/80 h-full w-full absolute transition-full duration-300 z-50'></div>
+        <div className='group-hover:bg-black/80 h-full w-full absolute transition-full duration-300 z-40'></div>
         <img src={img1} className=' w-[450px] h-[220px] group-hover:scale-125 overflow-hidden w-full transition-full duration-300  ' alt="project1"/>
-        <p className='absolute -bottom-50 group-hover:bottom-12   group-hover:left-12 z-50 transition-full duration-300 uppercase text-2xl'>Toy Shop</p>
-        <p className='absolute -bottom-50 group-hover:bottom-4   group-hover:left-12 z-50 transition-full duration-500 '><a className='me-2 underline'href='https://github.com/Tasniasamia/Assignment11'>Gihub Link</a> |<a className='ms-2 underline'href='https://assignment11-c2bcc.web.app/'>Live Link</a> </p>
+        <p className='absolute -bottom-50 group-hover:bottom-12   group-hover:left-12 z-40 transition-full duration-300 uppercase text-2xl'>Toy Shop</p>
+        <p className='absolute -bottom-50 group-hover:bottom-4   group-hover:left-12 z-40 transition-full duration-500 '><a className='me-2 underline'href='https://github.com/Tasniasamia/Assignment11'>Gihub Link</a> |<a className='ms-2 underline'href='https://assignment11-c2bcc.web.app/'>Live Link</a> </p>
        </div>
        
        </div>
 
        <div className='flex flex-col lg:flex-row gap-x-10 justify-center'>
        <div className='group relative  overflow-hidden mb-6 lg:mb-0'>
-        <div className='group-hover:bg-black/80 h-full w-full absolute transition-full duration-300 z-50'></div>
+        <div className='group-hover:bg-black/80 h-full w-full absolute transition-full duration-300 z-40'></div>
         <img src={img2} className=' w-[450px] h-[220px] group-hover:scale-125 overflow-hidden w-full transition-full duration-300  ' alt="project1"/>
-        <p className='absolute -bottom-50 group-hover:bottom-12   group-hover:left-12 z-50 transition-full duration-300 uppercase text-2xl'>Summer Camp School</p>
-        <p className='absolute -bottom-50 group-hover:bottom-4   group-hover:left-12 z-50 transition-full duration-500 '><a className='me-2 underline'href='https://github.com/Tasniasamia/Assignment12'>Gihub Link</a> |<a className='ms-2 underline'href="https://assignment12-e6a98.web.app/">Live Link</a> </p>
+        <p className='absolute -bottom-50 group-hover:bottom-12   group-hover:left-12 z-40 transition-full duration-300 uppercase text-2xl'>Summer Camp School</p>
+        <p className='absolute -bottom-50 group-hover:bottom-4   group-hover:left-12 z-40 transition-full duration-500 '><a className='me-2 underline'href='https://github.com/Tasniasamia/Assignment12'>Gihub Link</a> |<a className='ms-2 underline'href="https://assignment12-e6a98.web.app/">Live Link</a> </p>
        </div>
        <div className='group relative  overflow-hidden'>
-        <div className='group-hover:bg-black/80 h-full w-full absolute transition-full duration-300 z-50'></div>
+        <div className='group-hover:bg-black/80 h-full w-full absolute transition-full duration-300 z-40'></div>
         <img src={img3} className=' w-[450px] h-[220px] group-hover:scale-125 overflow-hidden w-full transition-full duration-300  ' alt="project1"/>
-        <p className='absolute -bottom-50 group-hover:bottom-12   group-hover:left-12 z-50 transition-full duration-300 uppercase text-2xl'>Chef of Mexico</p>
-        <p className='absolute -bottom-50 group-hover:bottom-4   group-hover:left-12 z-50 transition-full duration-500 '><a className='me-2 underline'href='https://github.com/Tasniasamia/Assignment_10'>Gihub Link</a> |<a className='ms-2 underline'href=' https://samia-beec7.web.app/'>Live Link</a> </p>
+        <p className='absolute -bottom-50 group-hover:bottom-12   group-hover:left-12 z-40 transition-full duration-300 uppercase text-2xl'>Chef of Mexico</p>
+        <p className='absolute -bottom-50 group-hover:bottom-4   group-hover:left-12 z-40 transition-full duration-500 '><a className='me-2 underline'href='https://github.com/Tasniasamia/Assignment_10'>Gihub Link</a> |<a className='ms-2 underline'href=' https://samia-beec7.web.app/'>Live Link</a> </p>
        </div>
        
        </div>
