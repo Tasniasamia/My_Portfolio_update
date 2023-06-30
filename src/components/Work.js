@@ -28,7 +28,7 @@ const Work = () => {
         <div className='group-hover:bg-black/80 h-full w-full absolute transition-full duration-300 z-50'></div>
         <img src={img1} className=' w-[450px] h-[220px] group-hover:scale-125 overflow-hidden w-full transition-full duration-300  ' alt="project1"/>
         <p className='absolute -bottom-50 group-hover:bottom-12   group-hover:left-12 z-50 transition-full duration-300 uppercase text-2xl'>Toy Shop</p>
-        <p className='absolute -bottom-50 group-hover:bottom-4   group-hover:left-12 z-50 transition-full duration-500 text-blue-600'><span className='me-2 underline'>Gihub Link</span> |<span className='ms-2 underline'>Live Link</span> </p>
+        <p className='absolute -bottom-50 group-hover:bottom-4   group-hover:left-12 z-50 transition-full duration-500 '><span className='me-2 underline'>Gihub Link</span> |<span className='ms-2 underline'>Live Link</span> </p>
        </div>
        
        </div>
@@ -38,13 +38,13 @@ const Work = () => {
         <div className='group-hover:bg-black/80 h-full w-full absolute transition-full duration-300 z-50'></div>
         <img src={img2} className=' w-[450px] h-[220px] group-hover:scale-125 overflow-hidden w-full transition-full duration-300  ' alt="project1"/>
         <p className='absolute -bottom-50 group-hover:bottom-12   group-hover:left-12 z-50 transition-full duration-300 uppercase text-2xl'>Summer Camp School</p>
-        <p className='absolute -bottom-50 group-hover:bottom-4   group-hover:left-12 z-50 transition-full duration-500 text-blue-600'><span className='me-2 underline'>Gihub Link</span> |<span className='ms-2 underline'>Live Link</span> </p>
+        <p className='absolute -bottom-50 group-hover:bottom-4   group-hover:left-12 z-50 transition-full duration-500 '><span className='me-2 underline'>Gihub Link</span> |<span className='ms-2 underline'>Live Link</span> </p>
        </div>
        <div className='group relative  overflow-hidden'>
         <div className='group-hover:bg-black/80 h-full w-full absolute transition-full duration-300 z-50'></div>
         <img src={img3} className=' w-[450px] h-[220px] group-hover:scale-125 overflow-hidden w-full transition-full duration-300  ' alt="project1"/>
         <p className='absolute -bottom-50 group-hover:bottom-12   group-hover:left-12 z-50 transition-full duration-300 uppercase text-2xl'>Chef of Mexico</p>
-        <p className='absolute -bottom-50 group-hover:bottom-4   group-hover:left-12 z-50 transition-full duration-500 text-blue-600'><span className='me-2 underline'>Gihub Link</span> |<span className='ms-2 underline'>Live Link</span> </p>
+        <p className='absolute -bottom-50 group-hover:bottom-4   group-hover:left-12 z-50 transition-full duration-500 '><span className='me-2 underline'>Gihub Link</span> |<span className='ms-2 underline'>Live Link</span> </p>
        </div>
        
        </div>

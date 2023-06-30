@@ -54,15 +54,15 @@ const Contact = () => {
 </motion.div>
 
 <motion.div className='mt-5'variants={fadeIn('left',0.5)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.7}}>
-  <form className='flex-1 lg:w-[500px] p-10 rounded-lg'style={{border:"1px solid white"}}>
+  <form className='flex-1 lg:w-[500px] p-10 rounded-lg'style={{border:"1px solid white"}}  action="https://formspree.io/f/xpzgaoka" method="POST">
 
-<input type="text" className='placeholder:text-white border-0 border-b bg-transparent w-full lg:max-w-[1000px] boxshadow-none outline-none focus:border-accent mb-8 pb-4'placeholder='Your name'/>
+<input type="text" className='placeholder:text-white border-0 border-b bg-transparent w-full lg:max-w-[1000px] boxshadow-none outline-none focus:border-accent mb-8 pb-4'placeholder='Your name'name="Name"id="Name" required/>
 
-<input type="email" className='placeholder:text-white border-0 border-b bg-transparent w-full lg:max-w-[1000px] boxshadow-none outline-none  mb-20 focus:border-accent pb-4'placeholder='Your email'/>
+<input type="email" className='placeholder:text-white border-0 border-b bg-transparent w-full lg:max-w-[1000px] boxshadow-none outline-none  mb-20 focus:border-accent pb-4'placeholder='Your email'name="Email"id="Email"required/>
 
-<textarea cols="40"rows="5"placeholder='Your message'className='placeholder:text-white border-0 border-b bg-transparent w-full lg:max-w-[1000px] boxshadow-none outline-none  mb-20 focus:border-accent resize-none'></textarea>
+<textarea cols="40"rows="5"placeholder='Your message'className='placeholder:text-white border-0 border-b bg-transparent w-full lg:max-w-[1000px] boxshadow-none outline-none  mb-20 focus:border-accent resize-none'name="Message" id="Message" required></textarea>
 
-
+{/* <input type="submit"placeholder='submit'/> */}
 <button className='btn btn-lg'>send message</button>
   </form>
 </motion.div>

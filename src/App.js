@@ -8,6 +8,7 @@ import Services from './components/Services';
 import Work from './components/Work';
 import Contact from './components/Contact';
 import Skill from './components/Skill';
+import { MyComponent } from './components/Data';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Skill/>
       <Work />
       <Contact />
+     
       <div className='h-[4000px]'>
         
       </div>
