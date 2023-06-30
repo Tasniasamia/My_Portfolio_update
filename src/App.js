@@ -9,6 +9,7 @@ import Work from './components/Work';
 import Contact from './components/Contact';
 import Skill from './components/Skill';
 import { MyComponent } from './components/Data';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -22,9 +23,10 @@ const App = () => {
       <Work />
       <Contact />
      
-      <div className='h-[1000px]'>
+      <div className='h-[500px]'>
         
       </div>
+      <Footer/>
     </div>
   );
 };
