@@ -24,13 +24,13 @@ const Banner = () => {
   <a href="#"className='text-gradient btn-link'>MY Portfolio</a></motion.div>
 
 <motion.div className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 'variants={fadeIn('up',0.7)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.7}}>
-  <a href="#">
+  <a href="https://www.facebook.com/profile.php?id=100080618216361">
     <FaFacebook/>
   </a>
-  <a href="#">
+  <a href="https://github.com/Tasniasamia">
     <FaGithub/>
   </a>
-  <a href="#">
+  <a href="">
     <FaLinkedin/>
   </a>
 </motion.div>

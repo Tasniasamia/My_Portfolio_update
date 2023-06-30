@@ -22,7 +22,7 @@ const App = () => {
       <Work />
       <Contact />
      
-      <div className='h-[4000px]'>
+      <div className='h-[1000px]'>
         
       </div>
     </div>
