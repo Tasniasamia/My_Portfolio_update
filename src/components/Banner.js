@@ -17,10 +17,10 @@ const Banner = () => {
     <span className='me-3 text-white'>I am a</span>
     <TypeAnimation sequence={[" MERN STACK DEVELOPER",2000,"FRONT-END-DEVELOPER",2000]} speed={50} className='text-accent'wrapper='span'repeat={Infinity}/>
   </motion.div>
-  <motion.p className='pb-8 max-w-lg mx-auto lg:mx-0'variants={fadeIn('up',0.5)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.7}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, enim! Velit hic odit tempora voluptas, quam quia quae nostrum obcaecati?</motion.p>
+  <motion.p className='pb-8 max-w-lg mx-auto lg:mx-0'variants={fadeIn('up',0.5)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.7}}>I am Tasnia Sharin.I Completed my diploma in Computer Engineering.I have learned Front-end-Development and also learned how to make a project by using mern-stack technology.I am interested in Backend Development.I can do hard working. I can also motivated myself easily</motion.p>
 <motion.div className='flex  max-w-max mb-8 items-center  justify-center'variants={fadeIn('up',0.6)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.7}}>
 
-  <button className='btn btn-lg me-4' >Download Resume</button>
+ <button className='btn btn-lg me-4'><a href="Mern_Stack_Resume_of_(Tasnia Sharin)-1.pdf" download="myfile.pdf"  >Download Resume</a></button> 
   <a href="#"className='text-gradient btn-link'>MY Portfolio</a></motion.div>
 
 <motion.div className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 'variants={fadeIn('up',0.7)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.7}}>
