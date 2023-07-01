@@ -25,14 +25,14 @@ const About = () => {
 
 <div className='flex  gap-x-10 gap-y-25  py-4 '>
 
-<div>
+<div className='pt-2'>
   <div className='text-gradient text-[40px] font-tertiary'>
     <CountUp start={-1} end={6} duration={5}/>
   </div>
   <div className='font-primary text-sm tracking-[2px] font-bold'>Months of <br/> Experience</div>
 </div>
 
-<div>
+<div className='pt-2'>
   <div className='text-gradient text-[40px] font-tertiary'>
     <CountUp start={-1} end={12} duration={5}/> +
   </div>
