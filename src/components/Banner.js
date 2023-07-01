@@ -30,7 +30,7 @@ const Banner = () => {
   <a href="https://github.com/Tasniasamia">
     <FaGithub/>
   </a>
-  <a href="">
+  <a href="https://www.linkedin.com/in/tasnia-sharin-413089246">
     <FaLinkedin/>
   </a>
 </motion.div>
