@@ -23,7 +23,7 @@ const About = () => {
   <p className='lg:max-w-[600px]'>I just Learned full-stact-web Development . I learned how to create a web application using html,css,bootstrap,javascirpt ,react ,node js and mongoDB </p>
   {/* experience */}
 
-<div className='flex  gap-x-10 gap-y-25 mt-10'>
+<div className='flex  gap-x-10 gap-y-25 mt-10 pt-5'>
 
 <div>
   <div className='text-gradient text-[40px] font-tertiary'>
