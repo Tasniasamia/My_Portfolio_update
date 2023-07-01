@@ -47,7 +47,7 @@ const Work = () => {
         <div className='group-hover:bg-black/80 h-full w-full absolute transition-full duration-300 z-40'></div>
         <img src={img3} className=' w-[450px] h-[220px] group-hover:scale-125 overflow-hidden w-full transition-full duration-300  ' alt="project1"/>
         <p className='absolute -bottom-50 group-hover:bottom-44 group-hover:left-10 z-40 transition-full duration-300 uppercase text-2xl text-gradient'>Chef of Mexico</p>
-        <p className='absolute -bottom-50 group-hover:bottom-12   group-hover:left-10 z-40 transition-full duration-300 '>This is a Front-end website.I made it by using  React JS and Bootstrap.There is 6 maxican chefs and their recipies . I have also added private route and login system.</p>
+        <p className='absolute -bottom-50 group-hover:bottom-12   group-hover:left-10 z-40 transition-full duration-300 '>This is a Front-end website.I made it by using  React JS and Bootstrap.There is 6 maxican chefs and their recipies . I have also added private route system</p>
         <p className='absolute -bottom-50 group-hover:bottom-4   group-hover:left-10 z-40 transition-full duration-500 text-blue-600'><a className='me-2 underline 'href='https://github.com/Tasniasamia/Assignment_10'>Gihub Link</a> |<a className='ms-2 underline'href=' https://samia-beec7.web.app/'>Live Link</a> </p>
        </div>
        
