@@ -38,7 +38,7 @@ const Work = () => {
        <div className='group relative  overflow-hidden mb-6 lg:mb-0'>
         <div className='group-hover:bg-black/80 h-full w-full absolute transition-full duration-300 z-40'></div>
         <img src={img2} className=' w-[450px] h-[220px] group-hover:scale-125 overflow-hidden w-full transition-full duration-300  ' alt="project1"/>
-        <p className='absolute -bottom-50 group-hover:bottom-44  group-hover:left-12 z-40 transition-full duration-300 uppercase text-2xl  text-gradient'>Summer Camp School</p>
+        <p className='absolute -bottom-50 group-hover:bottom-44  group-hover:left-12 z-40 transition-full duration-300 uppercase text-2xl  text-gradient'>Summer Camp</p>
         <p className='absolute -bottom-50 group-hover:bottom-12   group-hover:left-12 z-40 transition-full duration-300  '>This is a full stack project. It has dashboard system ,private route system, login system ,payment process system.I made it by all mern stack technology </p>
 
         <p className='absolute -bottom-50 group-hover:bottom-4   group-hover:left-12 z-40 transition-full duration-500 text-blue-600'><a className='me-2 underline'href='https://github.com/Tasniasamia/Assignment12'>Gihub Link</a> |<a className='ms-2 underline'href="https://assignment12-e6a98.web.app/">Live Link</a> </p>
