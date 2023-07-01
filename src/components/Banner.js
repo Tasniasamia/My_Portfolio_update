@@ -10,7 +10,7 @@ const Banner = () => {
   return <div className='min-h-[84vh] lg:min-h-[75vh] flex items-center'id='home'>
 
     <div className='container mx-auto'>
-      <div className='flex flex-col lg:flex-row gap-y-8 lg:items-center lg:gap-x-20 '>
+      <div className='flex flex-col-reverse lg:flex-row gap-y-8 lg:items-center lg:gap-x-20 '>
 <div className='flex-1 font-secondary text-center lg:text-left'>
   <div className='text-[40px]  max-w-max mx-auto lg:mx-0 font-secondary mb-4 leading-[0,8] lg:text-[50px] font-semibold'><motion.h1 variants={fadeIn('up',0.3)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.7}}>TASNIA <span>SHARIN</span></motion.h1></div>
   <motion.div className='mb-6 text-[30px] lg:text-[45px] font-secondary font-bold uppercase leading-[1]mx-auto lg:mx-0' variants={fadeIn('up',0.3)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.7}}>
@@ -35,7 +35,7 @@ const Banner = () => {
   </a>
 </motion.div>
 </div>
-  <motion.div className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[420px]'variants={fadeIn('down',0.5)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.7}}>
+  <motion.div className='mx-auto lg:mx-0 lg:flex flex-1 max-w-[320px] lg:max-w-[420px]'variants={fadeIn('down',0.5)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.7}}>
     
    
     <img src={image} alt="sideimg"className='rounded-full bg-accent mix-blend-lighten' />
