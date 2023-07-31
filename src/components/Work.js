@@ -29,7 +29,7 @@ const Work = () => {
         <img src={img1} className=' w-[450px] h-[220px] group-hover:scale-125 overflow-hidden w-full transition-full duration-300  ' alt="project1"/>
         <p className='absolute -bottom-50 group-hover:bottom-44  group-hover:left-12 z-40 transition-full duration-300 uppercase text-2xl text-gradient'>Toy Shop</p>
         <p className='absolute -bottom-50 group-hover:bottom-12   group-hover:left-12 z-40 transition-full duration-300 '>This is a full stack project. I just make it by using Html,CSS,Bootstrap,React JS,Node JS,Express JS,MongoDB and Firebase.I did crud operation.  </p>
-        <p className='absolute -bottom-50 group-hover:bottom-4   group-hover:left-12 z-40 transition-full duration-500 text-blue-600'><a className='me-2 underline'href='https://github.com/Tasniasamia/Assignment11'>Gihub Link</a> |<a className='ms-2 underline'href='https://assignment11-c2bcc.web.app/'>Live Link</a> </p>
+        <p className='absolute -bottom-50 group-hover:bottom-4   group-hover:left-12 z-40 transition-full duration-500 text-blue-600'><a className='me-2 underline'href='https://github.com/Tasniasamia/Assignment-11-client.git'>Client Link</a> |<a className='me-2 underline'href='https://github.com/Tasniasamia/Assignment_11_server.git'>Server Link</a> |<a className='ms-2 underline'href='https://assignment11-c2bcc.web.app/'>Live Link</a> </p>
        </div>
        
        </div>
@@ -41,14 +41,14 @@ const Work = () => {
         <p className='absolute -bottom-50 group-hover:bottom-44  group-hover:left-12 z-40 transition-full duration-300 uppercase text-2xl  text-gradient'>Summer Camp</p>
         <p className='absolute -bottom-50 group-hover:bottom-12   group-hover:left-12 z-40 transition-full duration-300  '>This is a full stack project. It has dashboard system ,private route system, login system ,payment process system.I made it by all mern stack technology </p>
 
-        <p className='absolute -bottom-50 group-hover:bottom-4   group-hover:left-12 z-40 transition-full duration-500 text-blue-600'><a className='me-2 underline'href='https://github.com/Tasniasamia/Assignment12'>Gihub Link</a> |<a className='ms-2 underline'href="https://assignment12-e6a98.web.app/">Live Link</a> </p>
+        <p className='absolute -bottom-50 group-hover:bottom-4   group-hover:left-12 z-40 transition-full duration-500 text-blue-600'><a className='me-2 underline'href='https://github.com/Tasniasamia/Assignment_12_Update_client.git'>Client Link</a> | <a className='me-2 underline'href='https://github.com/Tasniasamia/Assignment_12_server.git'>Server Link</a> |<a className='ms-2 underline'href="https://assignment12-e6a98.web.app/">Live Link</a> </p>
        </div>
        <div className='group relative  overflow-hidden'>
         <div className='group-hover:bg-black/80 h-full w-full absolute transition-full duration-300 z-40'></div>
         <img src={img3} className=' w-[450px] h-[220px] group-hover:scale-125 overflow-hidden w-full transition-full duration-300  ' alt="project1"/>
         <p className='absolute -bottom-50 group-hover:bottom-44 group-hover:left-10 z-40 transition-full duration-300 uppercase text-2xl text-gradient'>Chef of Mexico</p>
         <p className='absolute -bottom-50 group-hover:bottom-12   group-hover:left-10 z-40 transition-full duration-300 '>This is a Front-end website.I made it by using  React JS and Bootstrap.There is 6 maxican chefs and their recipies . I have also added private route system</p>
-        <p className='absolute -bottom-50 group-hover:bottom-4   group-hover:left-10 z-40 transition-full duration-500 text-blue-600'><a className='me-2 underline 'href='https://github.com/Tasniasamia/Assignment_10'>Gihub Link</a> |<a className='ms-2 underline'href=' https://samia-beec7.web.app/'>Live Link</a> </p>
+        <p className='absolute -bottom-50 group-hover:bottom-4   group-hover:left-10 z-40 transition-full duration-500 text-blue-600'><a className='me-2 underline 'href='https://github.com/Tasniasamia/Assignment_10_client.git'>Client Link</a> | <a className='me-2 underline 'href='https://github.com/Tasniasamia/Assignment_10_server.git'>Server Link</a> | <a className='ms-2 underline'href=' https://samia-beec7.web.app/'>Live Link</a> </p>
        </div>
        
        </div>

@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.21b5c9eb.css",
+    "main.js": "/static/js/main.123a6f0a.js",
+    "static/media/site-bg.jpg": "/static/media/site-bg.54724d703024833ef9c6.jpg",
+    "static/media/Screenshot_4.png": "/static/media/Screenshot_4.75267c7fed9611813145.png",
+    "static/media/Screenshot_5.png": "/static/media/Screenshot_5.184b0fb1a8e4db83d9ab.png",
+    "static/media/services.png": "/static/media/services.8e66d4fbbd95de45b8db.png",
+    "static/media/Screenshot_1.png": "/static/media/Screenshot_1.4f0ecefc7f7cfa05fae1.png",
+    "static/media/356469966_167272149558829__n-removebg-preview(1).png": "/static/media/356469966_167272149558829_6531289580157495279_n-removebg-preview(1).e56482f732b6b6692511.png",
+    "static/media/about2.png": "/static/media/about2.e56482f732b6b6692511.png",
+    "static/media/avater2.png": "/static/media/avater2.6857fab0cc804ae8bde4.png",
+    "static/media/tas.png": "/static/media/tas.9e9f6cf7b4f989267892.png",
+    "static/media/orbo1 (1).png": "/static/media/orbo1 (1).b41c83ed16c2db43437f.png",
+    "static/media/avatar.svg": "/static/media/avatar.b462b8b7299a5a8312b999d5851d8d7c.svg",
+    "index.html": "/index.html",
+    "main.21b5c9eb.css.map": "/static/css/main.21b5c9eb.css.map",
+    "main.123a6f0a.js.map": "/static/js/main.123a6f0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21b5c9eb.css",
+    "static/js/main.123a6f0a.js"
+  ]
+}
