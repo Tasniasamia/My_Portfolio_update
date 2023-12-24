@@ -9,7 +9,7 @@ const About = () => {
   //   threshold: 0.5,
   // });
   return <div className='section'id="about">
-<div className='mx-auto container lg:my-[300px] my-28 lg:mt-[350px]' >
+<div className='mx-auto container lg:mb-[300px] my-28 lg:mt-[350px]' >
   <div className='flex lg:flex-row flex-col items-center justify-between gap-y-25 gap-x-20'>
 
 <motion.div className='bg-about2 bg-no-repeat bg-contain bg-top w-[500px] lg:h-[800px]  h-[600px] mix-blend-lighten  mb-10 lg:mb-0 ' variants={fadeIn('right',0.3)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.5}}>

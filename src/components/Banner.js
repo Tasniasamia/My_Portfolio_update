@@ -7,7 +7,7 @@ import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import {fadeIn} from '../variants'
 const Banner = () => {
-  return <div className='min-h-[84vh] lg:min-h-[75vh] flex items-center'id='home'>
+  return <div className='min-h-[84vh] lg:min-h-[75vh] flex items-center  my-28'id='home'>
 
     <div className='container mx-auto'>
       <div className='flex flex-col-reverse lg:flex-row gap-y-8 lg:items-center lg:gap-x-20 '>
