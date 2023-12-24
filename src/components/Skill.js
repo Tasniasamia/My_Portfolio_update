@@ -5,7 +5,7 @@ import { fadeIn } from '../variants';
 const Skill = () => {
     return (
         <div className='section 'id="skill"> 
-        <div className='container mx-auto'>
+        <div className='container mx-auto  lg:mt-[250px] mt-[40px]'>
             <p className='text-accent  text-center mb-6'>GET IN TOUCH</p>
         <h2 className='h2 text-center mb-14'>My Skills</h2>
 <motion.div className='flex lg:flex-row flex-col justify-between gap-x-20 items-center'variants={fadeIn('up',0.3)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.5}}>

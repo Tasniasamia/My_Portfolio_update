@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 
 const Work = () => {
-  return <div className='section py-28 my-28'id="work">
+  return <div className='section py-28 lg:my-[300px] my-28'id="work">
 
 
     <div className='mx-auto container'>
@@ -14,9 +14,9 @@ const Work = () => {
 
         <div className='flex flex-col lg:flex-row gap-x-10 justify-center mb-12'>
 
-       <div className='flex flex-col gap-y-5 w-[450px] h-[220px] mb-16 lg:mb-0'>
+       <div className='flex flex-col gap-y-5 lg:w-[450px] w-[385px] h-[220px] mb-16 lg:mb-0'>
         <h2 className='h2 text-accent leading-light tracking-[4px]'>My Recent <br/> Projects</h2>
-        <p>I have recently completed this projects.Summper Camp , Cheef of Mexican , Toy Shop . You can checkout my projects</p>
+        <p className='w-full'>I have recently completed this projects.Summper Camp , Cheef of Mexican , Toy Shop . You can checkout my projects</p>
         <div>
         <button className='btn btn-lg'> view all projects</button>
         </div>

@@ -25,7 +25,7 @@ const Services = () => {
       learn:"Learn More"
     }
   ]
-  return <div className='section mt-40'id="service">
+  return <div className='section lg:my-[350px] my-28'id="service">
     <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row '>
         

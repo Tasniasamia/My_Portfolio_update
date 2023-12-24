@@ -14,7 +14,7 @@ const Contact = () => {
     {
       name:<AiOutlineMail/>,
       title:"Email",
-      des:"tasniaarhamarham@gmail.com"
+      des:"sharintasnia1@gmail.com"
     },{
       name:<CiLocationOn/>,
       title:"Location",

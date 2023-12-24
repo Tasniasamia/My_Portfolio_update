@@ -20,7 +20,7 @@ const Banner = () => {
   <motion.p className='pb-8 max-w-xl mx-auto lg:mx-0 text-justify'variants={fadeIn('up',0.5)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.7}}>I am Tasnia Sharin, a dedicated professional holding a diploma in Computer Engineering. My foray into web development took a transformative turn upon completing a comprehensive web development course at Programming Hero, where I delved into the intricacies of building robust and dynamic websites. As a Front-End Developer at Qwik IT Services.</motion.p>
 <motion.div className='flex  max-w-max mb-8 items-center  justify-center'variants={fadeIn('up',0.6)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.7}}>
 
- <button className='btn btn-lg me-4'><a  href="My_Resume_(TASNIA_SHARIN).pdf" download="myfile.pdf"  >Download Resume</a></button> 
+ <button className='btn btn-lg me-4'><a  href="Web Developer CV (Tasnia Sharin).pdf" download="myfile.pdf"  >Download Resume</a></button> 
   <a href="#"className='text-gradient btn-link'> Portfolio</a></motion.div>
 
 <motion.div className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 'variants={fadeIn('up',0.7)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.7}}>
