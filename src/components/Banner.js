@@ -15,13 +15,13 @@ const Banner = () => {
   <div className='text-[40px]  max-w-max mx-auto lg:mx-0 font-secondary mb-4 leading-[0,8] lg:text-[50px] font-semibold'><motion.h1 variants={fadeIn('up',0.3)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.7}}>TASNIA <span>SHARIN</span></motion.h1></div>
   <motion.div className='mb-6 text-[30px] lg:text-[45px] font-secondary font-bold uppercase leading-[1]mx-auto lg:mx-0' variants={fadeIn('up',0.3)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.7}}>
     <span className='me-3 text-white'>I am a</span>
-    <TypeAnimation sequence={[" MERN STACK DEVELOPER",2000,"FRONT-END-DEVELOPER",2000]} speed={50} className='text-accent'wrapper='span'repeat={Infinity}/>
+    <TypeAnimation sequence={[" MERN STACK DEVELOPER",2000,"FRONT-END-DEVELOPER",2000,"Web Developer",2000]} speed={50} className='text-accent'wrapper='span'repeat={Infinity}/>
   </motion.div>
-  <motion.p className='pb-8 max-w-lg mx-auto lg:mx-0'variants={fadeIn('up',0.5)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.7}}>I am Tasnia Sharin.I Completed my diploma in Computer Engineering.I have learned Front-end-Development and also learned how to make a project by using mern-stack technology.I am interested in Backend Development.I can do hard working. I can also motivated myself easily</motion.p>
+  <motion.p className='pb-8 max-w-xl mx-auto lg:mx-0 text-justify'variants={fadeIn('up',0.5)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.7}}>I am Tasnia Sharin, a dedicated professional holding a diploma in Computer Engineering. My foray into web development took a transformative turn upon completing a comprehensive web development course at Programming Hero, where I delved into the intricacies of building robust and dynamic websites. As a Front-End Developer at Qwik IT Services.</motion.p>
 <motion.div className='flex  max-w-max mb-8 items-center  justify-center'variants={fadeIn('up',0.6)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.7}}>
 
  <button className='btn btn-lg me-4'><a  href="My_Resume_(TASNIA_SHARIN).pdf" download="myfile.pdf"  >Download Resume</a></button> 
-  <a href="#"className='text-gradient btn-link'>MY Portfolio</a></motion.div>
+  <a href="#"className='text-gradient btn-link'> Portfolio</a></motion.div>
 
 <motion.div className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 'variants={fadeIn('up',0.7)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.7}}>
   <a href="https://www.facebook.com/profile.php?id=100080618216361&mibextid=ZbWKwL">

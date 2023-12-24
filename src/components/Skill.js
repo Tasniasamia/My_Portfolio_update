@@ -17,18 +17,27 @@ const Skill = () => {
 <div className='me-3 my-2  font-bold  '>CSS</div><ProgressBar completed={85} animateOnRender={true}  initCompletedOnAnimation={1} maxCompleted={100} /></div>
 <div className='mb-6'>
 <div className='me-3 my-2  font-bold  '>Bootstrap</div><ProgressBar completed={85} animateOnRender={true}  initCompletedOnAnimation={1} maxCompleted={100} /></div>
+<div className='mb-6'>
+<div className='me-3 my-2  font-bold  '>Tailwind CSS</div><ProgressBar completed={90} animateOnRender={true}  initCompletedOnAnimation={1} maxCompleted={100} />
+</div>
 
 </div>
 <div className='lg:w-[30%] w-full'>
-<div className='mb-6'>
-<div className='me-3 my-2  font-bold  '>Tailwind</div><ProgressBar completed={85} animateOnRender={true}  initCompletedOnAnimation={1} maxCompleted={100} /></div>
+
 <div className='mb-6'>
 <div className='me-3 my-2  font-bold  '>JavaScript</div><ProgressBar completed={70} animateOnRender={true}  initCompletedOnAnimation={1} maxCompleted={100} /></div>
 
 
 
 <div className='mb-6'>
-<div className='me-3 my-2  font-bold  '>React JS</div><ProgressBar completed={60} animateOnRender={true}  initCompletedOnAnimation={1} maxCompleted={100} /></div>
+<div className='me-3 my-2  font-bold  '>React JS</div><ProgressBar completed={75} animateOnRender={true}  initCompletedOnAnimation={1} maxCompleted={100} />
+</div>
+<div className='mb-6'>
+<div className='me-3 my-2  font-bold  '>React Native</div><ProgressBar completed={40} animateOnRender={true}  initCompletedOnAnimation={1} maxCompleted={100} />
+</div>
+<div className='mb-6'>
+<div className='me-3 my-2  font-bold  '>Next.js</div><ProgressBar completed={75} animateOnRender={true}  initCompletedOnAnimation={1} maxCompleted={100} />
+</div>
 <div className='mb-6'>
 
 <div className='me-3 my-2  font-bold  '>Firebase</div><ProgressBar completed={65} animateOnRender={true}  initCompletedOnAnimation={1} maxCompleted={100} /></div></div>
@@ -38,8 +47,11 @@ const Skill = () => {
 <div className='mb-6'>
 <div className='me-3 my-2  font-bold  '>Node JS</div><ProgressBar completed={50} animateOnRender={true}  initCompletedOnAnimation={1} maxCompleted={100} /></div>
 <div className='mb-6'>
-<div className='me-3   font-bold  '>MongoDB</div><ProgressBar completed={55} animateOnRender={true}  initCompletedOnAnimation={1} maxCompleted={100} /></div>
-
+<div className='me-3   font-bold  '>MongoDB</div><ProgressBar completed={55} animateOnRender={true}  initCompletedOnAnimation={1} maxCompleted={100} />
+</div>
+<div className='mb-6'>
+<div className='me-3   font-bold  '>MySQL</div><ProgressBar completed={40} animateOnRender={true}  initCompletedOnAnimation={1} maxCompleted={100} />
+</div>
 </div>
 
 

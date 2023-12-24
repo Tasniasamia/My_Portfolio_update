@@ -17,7 +17,11 @@ const Services = () => {
     },
     {
       name:"Front End Development",
-      work:"I can make website template by using React JS, JavaScript , HTML , CSS ,Bootstrap , Tailwind CSS .I can do also dynamic",
+      work:"I can make website template by using React JS, Next.js , JavaScript , HTML , CSS ,Bootstrap , Tailwind CSS .I can do also dynamic",
+      learn:"Learn More"
+    },{
+      name:"App Development",
+      work:"I have learned app development by React Native with Expo. I have interned Qwik IT Services. and That I learned app development",
       learn:"Learn More"
     }
   ]
@@ -30,7 +34,7 @@ const Services = () => {
 
       
           <h2 className='h2 mb-6 text-accent'>What I do</h2>
-          <h3 className='max-w-[455px] h3 mb-16 '>I just learned Web Designing and Development in last 6 months. I just staring my skill development</h3>
+          <h3 className='max-w-[480px] h3 mb-16 '>I  learned Web Designing and Development in last 8 months. Then I interned Qwik IT Services as a Front-End Developer</h3>
           <button className='btn btn-sm'>see my work</button>
           </motion.div>
           <motion.div className='max-w-[470px] 'variants={fadeIn('left',0.5)}initial="hidden"whileInView={"show"} viewport={{once:"false", amount: 0.5}}>
